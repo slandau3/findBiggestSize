@@ -1,6 +1,6 @@
 #! A program to find the largest specific files inside a general directory.
 # findBiggestFile.py
-# Created by Steven Landau
+# Created by Slandau3
 
 import os
 import time
