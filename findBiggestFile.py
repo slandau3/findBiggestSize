@@ -21,7 +21,7 @@ def getSize(path):
 
 def main():
     startTime = time.time()
-    getSize(r'C:\Users')  # change this to any general sub directory of a drive. It should be C:\'Something'
+    getSize(r'/home/slandau/Desktop')  # change this to any general sub directory of a drive. It should be C:\'Something'
     endTime = time.time()
 
     sizeList = (sorted(sizedic, reverse=True))  # gets a list of largest sizes (max -> min)
